@@ -1,5 +1,5 @@
 global monitor = peripheral.find("monitor")
-loopthing = 10
+global loopthing = 10
 while(loopthing < 20)
     do
         timeMon = os.time()
