@@ -2,8 +2,11 @@
  loopthing = 10
 while loopthing == 10 do
         timeMon = os.time()
-        sleep(10)
-        monitor.write(timeMon)
+        monitor.setCursorPos(1 , 1)
+        monitor.write(textutils.formatTime(timeMon , true)
+        sleep(1)
+        monitor.clear()
+        
 end
 
 
